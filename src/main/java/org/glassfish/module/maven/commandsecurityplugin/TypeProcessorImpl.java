@@ -675,6 +675,7 @@ public class TypeProcessorImpl implements TypeProcessor {
             }
             result.add(inhabitant);
         }
+        br.close();
         return result;
     }
     
